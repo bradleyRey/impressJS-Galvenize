@@ -827,6 +827,12 @@
 
 } )( document, window );
 
+$(document).ready(function(){
+  if($('.earthTitle').hasClass('past')){
+    $(this).css('opacity','0');
+  }
+});
+
 // THAT'S ALL FOLKS!
 //
 // Thanks for reading it all.
